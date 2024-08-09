@@ -1,0 +1,15 @@
+npm i <packagename> or npm install <packagename> 
+This will install the package locally to your current directory, this is used more often the the global variant (which you can do by providing
+a -g flag after the install/i) this is due to npx. 
+
+package.json - manifest file that stores important info about project/package. This will list the packages you have installed in your project
+directory and the versions of them. 
+
+To create package.json you would normally do npm init (step by step creation of package.json) 
+or npm init -y (sets ups package.json with all default values)
+
+node_modules is where all the files for the installed modules go. 
+
+
+
+how to delete installed modules?
