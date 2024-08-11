@@ -13,3 +13,14 @@ node_modules is where all the files for the installed modules go.
 
 
 how to delete installed modules?
+    npm uninstall <package name>
+
+
+to install a module as a dev dependency you would do npm i/install <package name> -D/--save-dev
+    for example: npm i nodemon -D or npm install nodemon --save-dev
+The reason for dev dependency are dependency also used when developing and it is not nessesary once the app is in production. You could
+have them in normal dependenices but it would make more sense in dev dependency. 
+
+
+to run a any of the scripts you would do npm run <scripName>. But if your script name is start, then you can do npm start, but this is only 
+for start nothing else. 
